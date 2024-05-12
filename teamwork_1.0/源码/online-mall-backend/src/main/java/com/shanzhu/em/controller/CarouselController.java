@@ -1,11 +1,11 @@
-package com.shanzhu.em.controller;
+package com.team.em.controller;
 
 import cn.hutool.core.util.BooleanUtil;
-import com.shanzhu.em.common.R;
-import com.shanzhu.em.entity.Carousel;
-import com.shanzhu.em.service.CarouselService;
-import com.shanzhu.em.service.GoodService;
-import com.shanzhu.em.service.UserService;
+import com.team.em.common.R;
+import com.team.em.entity.Carousel;
+import com.team.em.service.CarouselService;
+import com.team.em.service.GoodService;
+import com.team.em.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,8 +15,6 @@ import java.util.List;
 /**
  * 轮播图相关 控制层
  *
- * @author: ShanZhu
- * @date: 2023-11-10
  */
 @RestController
 @RequestMapping("/api/carousel")
