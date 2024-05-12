@@ -1,6 +1,4 @@
-
 package com.team.em.entity;
-
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -10,7 +8,6 @@ import lombok.Data;
 
 /**
  * 购物车
-
  */
 @Data
 @TableName("cart")
