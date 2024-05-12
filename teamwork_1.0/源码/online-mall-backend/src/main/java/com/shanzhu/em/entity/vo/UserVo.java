@@ -5,8 +5,6 @@ import lombok.Data;
 /**
  * 用户信息
  *
- * @author: ShanZhu
- * @date: 2023-11-10
  */
 @Data
 public class UserVo {
