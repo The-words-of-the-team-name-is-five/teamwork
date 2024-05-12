@@ -7,8 +7,6 @@ import java.math.BigDecimal;
 /**
  * 推荐商品信息
  *
- * @author: ShanZhu
- * @date: 2023-11-10
  */
 @Data
 public class GoodVo {
