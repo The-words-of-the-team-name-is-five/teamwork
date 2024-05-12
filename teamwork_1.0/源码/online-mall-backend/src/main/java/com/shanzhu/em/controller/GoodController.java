@@ -1,14 +1,14 @@
-package com.shanzhu.em.controller;
+package com.team.em.controller;
 
 import cn.hutool.core.util.BooleanUtil;
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.shanzhu.em.common.R;
-import com.shanzhu.em.constants.Status;
-import com.shanzhu.em.entity.Good;
-import com.shanzhu.em.entity.Standard;
-import com.shanzhu.em.entity.vo.GoodVo;
-import com.shanzhu.em.service.GoodService;
-import com.shanzhu.em.service.StandardService;
+import com.team.em.common.R;
+import com.team.em.constants.Status;
+import com.team.em.entity.Good;
+import com.team.em.entity.Standard;
+import com.team.em.entity.vo.GoodVo;
+import com.team.em.service.GoodService;
+import com.team.em.service.StandardService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,8 +17,6 @@ import java.util.List;
 /**
  * 商品 控制层
  *
- * @author: ShanZhu
- * @date: 2023-11-10
  */
 @RestController
 @RequestMapping("/api/good")

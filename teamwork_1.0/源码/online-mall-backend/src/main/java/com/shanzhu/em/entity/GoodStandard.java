@@ -1,4 +1,4 @@
-package com.shanzhu.em.entity;
+package com.team.em.entity;
 
 
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -7,9 +7,6 @@ import lombok.Data;
 
 /**
  * 商品规格
- *
- * @author: ShanZhu
- * @date: 2023-11-10
  */
 @Data
 @TableName("good_standard")
