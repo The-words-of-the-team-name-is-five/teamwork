@@ -1,6 +1,4 @@
-
 package com.team.em.entity;
-
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -9,12 +7,12 @@ import com.baomidou.mybatisplus.extension.activerecord.Model;
 import lombok.Data;
 
 /**
- * 购物车
-
+ * 用户地址
+ *
  */
 @Data
-@TableName("cart")
-public class Cart extends Model<Cart> {
+@TableName("address")
+public class Address extends Model<Address> {
 
     /**
      * 主键
@@ -23,27 +21,22 @@ public class Cart extends Model<Cart> {
     private Long id;
 
     /**
-     * 商品数量
+     * 联系人
      */
-    private Integer count;
+    private String linkUser;
 
     /**
-     * 加入时间
+     * 联系地址
      */
-    private String createTime;
+    private String linkAddress;
 
     /**
-     * 商品id
+     * 联系电话
      */
-    private Long goodId;
+    private String linkPhone;
 
     /**
-     * 商品规格
-     */
-    private String standard;
-
-    /**
-     * 用户id
+     * 所属用户
      */
     private Long userId;
 
