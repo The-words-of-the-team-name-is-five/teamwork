@@ -1,12 +1,12 @@
-package com.shanzhu.em.controller;
+package com.team.em.controller;
 
 import com.auth0.jwt.JWT;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
-import com.shanzhu.em.common.R;
-import com.shanzhu.em.entity.Icon;
-import com.shanzhu.em.entity.User;
-import com.shanzhu.em.service.IconService;
-import com.shanzhu.em.service.UserService;
+import com.team.em.common.R;
+import com.team.em.entity.Icon;
+import com.team.em.entity.User;
+import com.team.em.service.IconService;
+import com.team.em.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,8 +17,6 @@ import java.util.Map;
 /**
  * 图标 控制层
  *
- * @author: ShanZhu
- * @date: 2023-11-10
  */
 @RestController
 @RequestMapping("/api/icon")

@@ -1,4 +1,4 @@
-package com.shanzhu.em.entity;
+package com.team.em.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
@@ -11,9 +11,6 @@ import java.math.BigDecimal;
 
 /**
  * 商品
- *
- * @author: ShanZhu
- * @date: 2023-11-10
  */
 @Data
 @TableName("good")
