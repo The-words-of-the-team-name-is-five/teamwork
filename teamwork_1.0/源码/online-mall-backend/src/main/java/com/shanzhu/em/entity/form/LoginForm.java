@@ -1,12 +1,10 @@
-package com.shanzhu.em.entity.form;
+package com.team.em.entity.form;
 
 import lombok.Data;
 
 /**
  * 用户登录表单
  *
- * @author: ShanZhu
- * @date: 2023-11-10
  */
 @Data
 public class LoginForm {

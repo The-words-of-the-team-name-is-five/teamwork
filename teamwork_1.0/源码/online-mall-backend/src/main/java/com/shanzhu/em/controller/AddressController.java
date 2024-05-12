@@ -1,19 +1,14 @@
-package com.shanzhu.em.controller;
+package com.team.em.controller;
 
-import com.shanzhu.em.common.R;
-import com.shanzhu.em.entity.Address;
-import com.shanzhu.em.service.AddressService;
+import com.team.em.common.R;
+import com.team.em.entity.Address;
+import com.team.em.service.AddressService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/**
- * 用户地址 控制层
- *
- * @author: ShanZhu
- * @date: 2023-11-10
- */
+
 @RestController
 @RequestMapping("/api/address")
 @RequiredArgsConstructor

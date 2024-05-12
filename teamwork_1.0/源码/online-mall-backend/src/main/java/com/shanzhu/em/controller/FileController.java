@@ -1,11 +1,11 @@
-package com.shanzhu.em.controller;
+package com.team.em.controller;
 
 import cn.hutool.core.util.BooleanUtil;
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.shanzhu.em.common.R;
-import com.shanzhu.em.constants.Status;
-import com.shanzhu.em.entity.SysFile;
-import com.shanzhu.em.service.FileService;
+import com.team.em.common.R;
+import com.team.em.constants.Status;
+import com.team.em.entity.SysFile;
+import com.team.em.service.FileService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -16,8 +16,6 @@ import java.util.List;
 /**
  * 用户上传文件 控制层
  *
- * @author: ShanZhu
- * @date: 2023-11-10
  */
 @RestController
 @RequestMapping("/file")
