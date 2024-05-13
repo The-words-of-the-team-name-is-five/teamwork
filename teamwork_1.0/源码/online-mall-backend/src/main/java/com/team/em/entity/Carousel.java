@@ -7,14 +7,13 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import lombok.Data;
 
-import java.util.List;
-
 /**
- * 图标
+ * 轮播图
+ *
  */
 @Data
-@TableName(value = "icon")
-public class Icon extends Model<Icon> {
+@TableName("carousel")
+public class Carousel extends Model<Carousel> {
 
     /**
      * 主键
@@ -23,14 +22,25 @@ public class Icon extends Model<Icon> {
     private Long id;
 
     /**
-     * 图标的标识码
+     * 对应的商品
      */
-    private String value;
+    private Long goodId;
 
     /**
-     * 图标对应的分类
+     * 轮播顺序
+     */
+    private Integer showOrder;
+
+    /**
+     * 商品名
      */
     @TableField(exist = false)
-    private List<Category> categories;
+    private String goodName;
+
+    /**
+     * 图片
+     */
+    @TableField(exist = false)
+    private String img;
 
 }

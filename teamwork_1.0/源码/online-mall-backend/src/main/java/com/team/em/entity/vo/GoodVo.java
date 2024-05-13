@@ -7,6 +7,7 @@ import java.math.BigDecimal;
 /**
  * 推荐商品信息
  *
+
  */
 @Data
 public class GoodVo {

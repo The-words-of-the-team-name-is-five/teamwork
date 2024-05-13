@@ -2,10 +2,7 @@ package com.team.em.entity.vo;
 
 import lombok.Data;
 
-/**
- * 用户信息
- *
- */
+
 @Data
 public class UserVo {
 
